@@ -15,10 +15,6 @@ namespace FurryOS
 
         protected override void Run()
         {
-            //Console.Write("Input: ");
-            //var input = Console.ReadLine();
-            //Console.Write("Text typed: ");
-            //Console.WriteLine(input);
             Console.Write(">");
             var input = Console.ReadLine();
             input = input.ToLower();
